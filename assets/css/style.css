@@ -1,0 +1,53 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    background-color: grey;
+    width: 100vw;
+}
+
+h1 {
+  text-align: left;
+  padding: 20px;
+}
+
+nav {
+  padding-top: 25px;
+  float: right;
+  padding-right: 50px;
+}
+
+ul {
+  color:rgb(108, 108, 243);
+}
+
+li{
+  display: inline;
+  list-style-type: none;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+img {
+  width: 100%;
+  height: 20vh;
+}
+
+aside {
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.subtitle {
+  width: 25vw;
+  border-right: 5px solid blue;
+}
+
+.content {
+  width: 70vw;
+
+}
